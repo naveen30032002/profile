@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(7, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.top{
+  position: fixed;
+    top: -300px; 
+    left: -50px;
+    z-index: -1; 
+    width: 700px; 
+    height: 800px; 
+    background-image: url('bg-pattern-top.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;     
+
+}
+.bottom{
+  position: fixed;
+    bottom: 0; 
+    right: 0; 
+    z-index: -1; 
+    width: 700px; 
+    height: 800px; 
+    background-image: url('bg-pattern-bottom.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    top: 300px;
+}
+  
+  .profile-card {
+    background: rgb(191, 230, 247);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 320px;
+  }
+  
+  
+  .profile-header {
+    background: rgb(9, 220, 243);
+    padding: 2rem;
+    position: relative;
+    background-image: url( 'bg-pattern-card.svg' );
+    height: 50px;
+    
+    
+    
+  }
+  
+  .im1{
+    border: 4px solid white;
+    width: 100%;
+    height: 70%;
+    border-radius: 100px;
+  }
+  .profile-info {
+    margin-top: 50px;
+    color: rgb(45, 50, 72);
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+  }
+  
+  .profile-info h2 span {
+    color: rgb(88, 98, 141);
+  }
+  
+  .profile-info p {
+    margin: 0.5;
+    font-size: 0.5;
+    color: rgb(88, 98, 141);
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    background: rgb(245, 245, 245);
+  }
+  
+  .profile-stats div {
+    text-align: center;
+  }
+  
+  .profile-stats h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: rgb(45, 50, 72);
+  }
+  
+  .profile-stats p {
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+    color: rgb(89, 99, 140);
+  }
+  img{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-right: 0px;
+    left: 110px;
+    top: 50px;
+    
+    
+
+  }
